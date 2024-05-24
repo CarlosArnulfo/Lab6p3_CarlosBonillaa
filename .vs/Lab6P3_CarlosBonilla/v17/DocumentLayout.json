@@ -38,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Imagen.cpp",
+              "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.cpp",
+              "RelativeDocumentMoniker": "Imagen.cpp",
+              "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.cpp",
+              "RelativeToolTip": "Imagen.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T19:13:33.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -62,8 +75,7 @@
               "RelativeToolTip": "ImagenColor.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:37:20.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:37:20.737Z"
             },
             {
               "$type": "Document",
@@ -75,8 +87,7 @@
               "RelativeToolTip": "ImagenColor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-24T19:37:31.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:37:31.359Z"
             },
             {
               "$type": "Document",
@@ -88,8 +99,7 @@
               "RelativeToolTip": "RGB.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-24T19:20:25.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:20:25.884Z"
             },
             {
               "$type": "Document",
@@ -101,8 +111,7 @@
               "RelativeToolTip": "RGB.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:20:11.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:20:11.513Z"
             },
             {
               "$type": "Document",
@@ -114,21 +123,7 @@
               "RelativeToolTip": "Imagen.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-24T19:13:40.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Imagen.cpp",
-              "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.cpp",
-              "RelativeDocumentMoniker": "Imagen.cpp",
-              "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.cpp",
-              "RelativeToolTip": "Imagen.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:13:33.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:13:40.12Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "Lab6P3_CarlosBonilla.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:09:53.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T19:09:53.757Z"
             }
           ]
         }

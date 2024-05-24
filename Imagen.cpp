@@ -23,3 +23,4 @@ int Imagen::getAnchura()
 {
 	return 0;
 }
+//aaaaaa
