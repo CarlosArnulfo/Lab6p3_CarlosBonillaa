@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:ImagenEscalaGrises.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:ImagenEscalaGrises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Lab6P3_CarlosBonilla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:Lab6P3_CarlosBonilla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenColor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:ImagenColor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:ImagenEscalaGrises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:ImagenEscalaGrises.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:Imagen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\RGB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:RGB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Lab6P3_CarlosBonilla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|solutionrelative:Lab6P3_CarlosBonilla.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9C1B2F8-4B61-411D-B9F4-3F025BC79D59}|Lab6P3_CarlosBonilla.vcxproj|L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\RGB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,44 +58,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ImagenEscalaGrises.cpp",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.cpp",
               "RelativeDocumentMoniker": "ImagenEscalaGrises.cpp",
               "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.cpp",
               "RelativeToolTip": "ImagenEscalaGrises.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T21:16:31.297Z"
+              "WhenOpened": "2024-05-24T21:16:31.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ImagenEscalaGrises.h",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.h",
               "RelativeDocumentMoniker": "ImagenEscalaGrises.h",
               "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenEscalaGrises.h",
               "RelativeToolTip": "ImagenEscalaGrises.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-24T21:16:19.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ImagenColor.cpp",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenColor.cpp",
               "RelativeDocumentMoniker": "ImagenColor.cpp",
               "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenColor.cpp",
               "RelativeToolTip": "ImagenColor.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:37:20.737Z"
+              "WhenOpened": "2024-05-24T19:37:20.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Imagen.cpp",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.cpp",
               "RelativeDocumentMoniker": "Imagen.cpp",
@@ -103,19 +105,21 @@
               "RelativeToolTip": "Imagen.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:13:33.284Z"
+              "WhenOpened": "2024-05-24T19:13:33.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ImagenColor.h",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenColor.h",
               "RelativeDocumentMoniker": "ImagenColor.h",
               "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\ImagenColor.h",
               "RelativeToolTip": "ImagenColor.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-24T19:37:31.359Z"
+              "WhenOpened": "2024-05-24T19:37:31.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RGB.cpp",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\RGB.cpp",
               "RelativeDocumentMoniker": "RGB.cpp",
@@ -143,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Imagen.h",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Imagen.h",
               "RelativeDocumentMoniker": "Imagen.h",
@@ -155,15 +159,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Lab6P3_CarlosBonilla.cpp",
               "DocumentMoniker": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Lab6P3_CarlosBonilla.cpp",
               "RelativeDocumentMoniker": "Lab6P3_CarlosBonilla.cpp",
               "ToolTip": "L:\\Labs\\Lab6p3_CarlosBonillaa\\Lab6P3_CarlosBonilla\\Lab6P3_CarlosBonilla.cpp",
               "RelativeToolTip": "Lab6P3_CarlosBonilla.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAATAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-24T19:09:53.757Z"
+              "WhenOpened": "2024-05-24T19:09:53.757Z",
+              "EditorCaption": ""
             }
           ]
         }

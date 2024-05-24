@@ -9,7 +9,6 @@ public:
 	int getContraste();
 	void setContraste(int);
 	void aplicarBrillo(int,int);
-	vector<int> getVectorIntensidad() {
-		return vectorIntensidad;
-	}
+	vector<int> getVectorIntensidad();
+	void setVectorIntensidad(vector <int>);
 };

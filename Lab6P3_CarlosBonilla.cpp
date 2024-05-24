@@ -4,8 +4,13 @@
 #include <iostream>
 #include "ImagenColor.h"
 #include "RGB.h"
+#include <cstdlib> 
+#include <ctime>
+#include <vector>
 using namespace std;
 void menu() {
+	vector<Imagen> vectorImagenes;
+	srand((unsigned)time(0));
 	int menu = 0;
 	do
 	{
@@ -19,6 +24,51 @@ void menu() {
 		cin >> menu; 
 		if (menu==1)
 		{
+			int tipoImagen = 0;
+			do
+			{
+				cout << "que imagen quiere crear" << endl;
+				cout << "1. Imagen a color " << endl;
+				cout << "2. Imagen escala de grises " << endl;
+				cin >> tipoImagen;
+			} while (tipoImagen==1||tipoImagen==2);
+			string name;
+			int ancho = 0;
+			int largo = 0;
+			cout << "ingrese nombre de la imagen" << endl;
+			cin >> name;
+			cout << "ingrese el ancho de la imagen " << endl;
+			cin >> ancho;
+			cout << "ingrese el largo de la imagen " << endl;
+			cin >> largo;
+			int profundidad = 0;
+			if (tipoImagen==1)
+			{
+				do
+				{
+					cout << "ingrese el nivel de profundidad de color de la imagen (entre 1 y 24)"<< endl ;
+					cin >> profundidad;
+				} while (profundidad<1||profundidad>24);
+				int cuantos = 0;
+				cout << "Ingrese cuantos colores rgb quiere agregar"<<endl;
+				cin >> cuantos;
+				vector <RGB*> tempvector;
+				for (int i = 0; i < cuantos; i++)
+				{
+					tempvector.push_back(new RGB(((rand() % 255) + 1), ((rand() % 255) + 1), ((rand() % 255) + 1)));
+				}
+				ImagenColor imagen = ImagenColor(profundidad,tempvector,name,ancho,largo);
+			}
+			else 
+			{
+				do
+				{
+					cout << "ingrese el nivel de contraste de la imagen (entre 0 y 100)" << endl;
+					cin >> profundidad;
+				} while (profundidad < 0 || profundidad>100);
+
+				
+			}
 
 		} else if (menu == 2)
 		{

@@ -13,14 +13,14 @@ void ImagenColor::aplicarBrillo(int r,int g, int b, int i)
 		setVectorRGB(nuevoVector);
 }
 
-int ImagenColor::CalcularPropiedades()
+void ImagenColor::CalcularPropiedades()
 {
 	int total = 0;
 	for (int i = 0; i < getVectorRGB().size(); i++)
 	{
 		total += getVectorRGB()[i]->getRed() + getVectorRGB()[i]->getGreen() + getVectorRGB()[i]->getBlue();
 	}
-	return total / pixeles;
+	cout<< "Intensidad promedio: " << total / pixeles<<endl;
 }
 
 vector<RGB*> ImagenColor::getVectorRGB()

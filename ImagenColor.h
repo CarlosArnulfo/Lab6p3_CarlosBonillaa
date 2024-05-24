@@ -10,7 +10,7 @@ public:
 	ImagenColor();
 	ImagenColor(int,vector<RGB*>,string,int,int);
 	void aplicarBrillo(int,int,int,int);
-	int CalcularPropiedades();
+	void CalcularPropiedades();
 	vector<RGB*> getVectorRGB();
 	void setVectorRGB(vector <RGB*>);
 
