@@ -3,7 +3,7 @@
 
 Imagen::Imagen(int alto, int ancho)
 {
-	altura
+	
 }
 
 void Imagen::setAltura(int)
