@@ -13,15 +13,17 @@ void ImagenColor::aplicarBrillo(int r,int g, int b, int i)
 		setVectorRGB(nuevoVector);
 }
 
-void ImagenColor::CalcularPropiedades()
+void ImagenColor::CalcularPropiedades() const
 {
 	int total = 0;
-	for (int i = 0; i < getVectorRGB().size(); i++)
+	for (int i = 0; i < vectorRGB.size(); i++)
 	{
-		total += getVectorRGB()[i]->getRed() + getVectorRGB()[i]->getGreen() + getVectorRGB()[i]->getBlue();
+		total += vectorRGB[i]->getRed() + vectorRGB[i]->getGreen() + vectorRGB[i]->getBlue();
 	}
-	cout<< "Intensidad promedio: " << total / pixeles<<endl;
+	cout << "Intensidad promedio: " << total / pixeles << endl;
 }
+
+
 
 vector<RGB*> ImagenColor::getVectorRGB()
 {
@@ -33,16 +35,14 @@ void ImagenColor::setVectorRGB(vector<RGB*> temp)
 	vectorRGB = temp;
 }
 
-void ImagenColor::imprimirPropiedades()
+void ImagenColor::imprimirPropiedades() const
 {
-	cout << "Nombre: " << nombre << endl;
-	cout << "ancho: " << ancho << endl;
-	cout << "largo: " << largo << endl;
-	cout << "pixeles: " << pixeles;
+	Imagen::imprimirPropiedades();
 	cout << "profundidad" << profundidadColor << endl;
 	cout << "RGB: " << endl;
 	for (int i = 0; i < vectorRGB.size(); i++)
 	{
 		cout << "(" << vectorRGB[i]->getRed() << ", " << vectorRGB[i]->getGreen() << ", " << vectorRGB[i]->getBlue() << ")"<< endl ;
 	}
+	cout << endl<<endl;
 }

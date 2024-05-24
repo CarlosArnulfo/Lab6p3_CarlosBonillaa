@@ -10,8 +10,8 @@ public:
 	ImagenColor();
 	ImagenColor(int,vector<RGB*>,string,int,int);
 	void aplicarBrillo(int,int,int,int);
-	void CalcularPropiedades();
+	void CalcularPropiedades() const override;
 	vector<RGB*> getVectorRGB();
 	void setVectorRGB(vector <RGB*>);
-	virtual void imprimirPropiedades();
+	virtual void imprimirPropiedades() const override;
 };

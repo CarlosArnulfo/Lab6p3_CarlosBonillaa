@@ -38,6 +38,16 @@ int Imagen::getAnchura()
 	return 0;
 }
 
-void Imagen::imprimirPropiedades()
+void Imagen::imprimirPropiedades() const
+{
+	cout << "Nombre: " << nombre << endl;
+	cout << "ancho: " << ancho << endl;
+	cout << "largo: " << largo << endl;
+	cout << "pixeles: " << pixeles;
+}
+Imagen::~Imagen() {
+}
+
+void Imagen::CalcularPropiedades() const
 {
 }

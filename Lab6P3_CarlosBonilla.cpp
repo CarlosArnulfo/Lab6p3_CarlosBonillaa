@@ -60,6 +60,7 @@ void menu() {
 				}
 				ImagenColor imagen = ImagenColor(profundidad,tempvector,name,ancho,largo);
 				imagenes.push_back(imagen);
+				((Imagen)imagen).~Imagen();
 			}
 			else 
 			{
@@ -76,6 +77,7 @@ void menu() {
 				}
 				ImagenEscalaGrises imagen = ImagenEscalaGrises(profundidad,tempvector,name,ancho,largo);
 				imagenes.push_back(imagen);
+				((Imagen)imagen).~Imagen();
 			}
 
 		} else if (menu == 2)
@@ -87,18 +89,22 @@ void menu() {
 		}
 		else if (menu == 3)
 		{
-
+			cout << "me quede sin tiempo xd " << endl;
+			cout << "Street Fighter >>>>>> bodrio kombat" << endl;
 		}
 		else if (menu == 4)
 		{
-
+			for (int i = 0; i < imagenes.size(); i++)
+			{
+				imagenes[i].CalcularPropiedades();
+			}
 		}
 		else if (menu == 5)
 		{
-
+			cout << "Gracias por ver mi lab" << endl;
 		}
 		else {
-
+			cout << "Elija una opcion valida" << endl;
 		}
 
 	} while (menu!=5);

@@ -16,6 +16,7 @@ public:
 	void setAnchura(int);
 	int getAltura();
 	int getAnchura();
-	void imprimirPropiedades();
-	
+	virtual void imprimirPropiedades() const;
+	virtual ~Imagen();
+	virtual void CalcularPropiedades()const;
 };

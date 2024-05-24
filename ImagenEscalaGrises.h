@@ -11,5 +11,6 @@ public:
 	void aplicarBrillo(int,int);
 	vector<int> getVectorIntensidad();
 	void setVectorIntensidad(vector <int>);
-	void imprimirPropiedades();
+	virtual void imprimirPropiedades() const override;
+	virtual void CalcularPropiedades() const override;
 };
