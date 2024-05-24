@@ -1,0 +1,5 @@
+﻿  Imagen.cpp
+  ImagenColor.cpp
+  RGB.cpp
+L:\Labs\Lab6P3_CarlosBonilla\Lab6P3_CarlosBonilla\ImagenColor.cpp(18,17): error C2065: 'getPixele': undeclared identifier
+  Generating Code...
