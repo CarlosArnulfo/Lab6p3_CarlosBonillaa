@@ -3,13 +3,14 @@
 
 #include <iostream>
 #include "ImagenColor.h"
+#include "ImagenEscalaGrises.h"
 #include "RGB.h"
 #include <cstdlib> 
 #include <ctime>
 #include <vector>
 using namespace std;
 void menu() {
-	vector<Imagen> vectorImagenes;
+	vector<Imagen> imagenes;
 	srand((unsigned)time(0));
 	int menu = 0;
 	do
@@ -31,7 +32,7 @@ void menu() {
 				cout << "1. Imagen a color " << endl;
 				cout << "2. Imagen escala de grises " << endl;
 				cin >> tipoImagen;
-			} while (tipoImagen==1||tipoImagen==2);
+			} while (tipoImagen<1&&tipoImagen>2);
 			string name;
 			int ancho = 0;
 			int largo = 0;
@@ -55,9 +56,10 @@ void menu() {
 				vector <RGB*> tempvector;
 				for (int i = 0; i < cuantos; i++)
 				{
-					tempvector.push_back(new RGB(((rand() % 255) + 1), ((rand() % 255) + 1), ((rand() % 255) + 1)));
+					tempvector.push_back(new RGB(((rand() % 254) + 1), ((rand() % 254) + 1), ((rand() % 254) + 1)));
 				}
 				ImagenColor imagen = ImagenColor(profundidad,tempvector,name,ancho,largo);
+				imagenes.push_back(imagen);
 			}
 			else 
 			{
@@ -65,14 +67,23 @@ void menu() {
 				{
 					cout << "ingrese el nivel de contraste de la imagen (entre 0 y 100)" << endl;
 					cin >> profundidad;
+					
 				} while (profundidad < 0 || profundidad>100);
-
-				
+				vector<int> tempvector;
+				for (int i = 0; i < ancho*largo; i++)
+				{
+					tempvector.push_back((rand() % 100));
+				}
+				ImagenEscalaGrises imagen = ImagenEscalaGrises(profundidad,tempvector,name,ancho,largo);
+				imagenes.push_back(imagen);
 			}
 
 		} else if (menu == 2)
 		{
-
+			for (int i = 0; i < imagenes.size(); i++)
+			{
+				imagenes[i].imprimirPropiedades();
+			}
 		}
 		else if (menu == 3)
 		{
@@ -90,7 +101,7 @@ void menu() {
 
 		}
 
-	} while (menu=!5);
+	} while (menu!=5);
 }
 
 int main()

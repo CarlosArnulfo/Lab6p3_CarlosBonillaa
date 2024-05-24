@@ -32,3 +32,11 @@ void ImagenEscalaGrises::setVectorIntensidad(vector <int> vectorNuevo)
 {
 	vectorIntensidad = vectorNuevo;
 }
+
+void ImagenEscalaGrises::imprimirPropiedades()  {
+	cout << "Nombre: " << nombre << endl;
+	cout << "ancho: " << ancho << endl;
+	cout << "largo: " << largo << endl;
+	cout << "pixeles: " << pixeles;
+	cout << "Contraste: " << contraste << endl;
+}

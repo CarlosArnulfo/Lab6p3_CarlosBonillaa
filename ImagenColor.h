@@ -13,5 +13,5 @@ public:
 	void CalcularPropiedades();
 	vector<RGB*> getVectorRGB();
 	void setVectorRGB(vector <RGB*>);
-
+	virtual void imprimirPropiedades();
 };

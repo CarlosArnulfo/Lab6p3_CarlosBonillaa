@@ -9,6 +9,16 @@ Imagen::Imagen(string nombre,int ancho, int largo)
 	this->pixeles = ancho * largo;
 }
 
+string Imagen::getName()
+{
+	return string();
+}
+
+void Imagen::setName(string nombreNew)
+{
+	nombre = nombreNew;
+}
+
 void Imagen::setAltura(int altura)
 {
 	ancho = altura;
@@ -26,4 +36,8 @@ int Imagen::getAltura()
 int Imagen::getAnchura()
 {
 	return 0;
+}
+
+void Imagen::imprimirPropiedades()
+{
 }

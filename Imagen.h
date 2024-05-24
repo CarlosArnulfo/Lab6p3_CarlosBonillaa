@@ -10,9 +10,12 @@ protected:
 public:
 	Imagen();
 	Imagen(string,int, int);
+	string getName();
+	void setName(string);
 	void setAltura(int);
 	void setAnchura(int);
 	int getAltura();
 	int getAnchura();
+	void imprimirPropiedades();
 	
 };

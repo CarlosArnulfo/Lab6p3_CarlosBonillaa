@@ -32,3 +32,17 @@ void ImagenColor::setVectorRGB(vector<RGB*> temp)
 {
 	vectorRGB = temp;
 }
+
+void ImagenColor::imprimirPropiedades()
+{
+	cout << "Nombre: " << nombre << endl;
+	cout << "ancho: " << ancho << endl;
+	cout << "largo: " << largo << endl;
+	cout << "pixeles: " << pixeles;
+	cout << "profundidad" << profundidadColor << endl;
+	cout << "RGB: " << endl;
+	for (int i = 0; i < vectorRGB.size(); i++)
+	{
+		cout << "(" << vectorRGB[i]->getRed() << ", " << vectorRGB[i]->getGreen() << ", " << vectorRGB[i]->getBlue() << ")"<< endl ;
+	}
+}

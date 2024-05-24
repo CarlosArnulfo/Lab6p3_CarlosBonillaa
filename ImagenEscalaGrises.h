@@ -11,4 +11,5 @@ public:
 	void aplicarBrillo(int,int);
 	vector<int> getVectorIntensidad();
 	void setVectorIntensidad(vector <int>);
+	void imprimirPropiedades();
 };
