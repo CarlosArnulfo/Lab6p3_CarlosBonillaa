@@ -1,13 +1,17 @@
 #include "Imagen.h"
 #include <stdexcept> 
 
-Imagen::Imagen(int alto, int ancho)
+Imagen::Imagen(string nombre,int ancho, int largo)
 {
-	
+	this->nombre = nombre;
+	this->ancho = ancho;
+	this->largo = largo;
+	this->pixeles = ancho * largo;
 }
 
-void Imagen::setAltura(int)
+void Imagen::setAltura(int altura)
 {
+	ancho = altura;
 }
 
 void Imagen::setAnchura(int)
@@ -23,4 +27,3 @@ int Imagen::getAnchura()
 {
 	return 0;
 }
-//aaaaaa

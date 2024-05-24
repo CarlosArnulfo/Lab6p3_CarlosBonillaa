@@ -1,5 +1,10 @@
 #include "ImagenColor.h"
-#include "RGB.h"
+
+ImagenColor::ImagenColor(int profundo,vector<RGB*> vector, string nombre, int ancho, int largo) :Imagen(nombre,ancho,largo) {
+	this->profundidadColor = profundo;
+	this->vectorRGB = vector;
+}
+
 void ImagenColor::aplicarBrillo(int r,int g, int b, int i)
 {
 	RGB* nuevoRGB = new RGB(r,g,b);
@@ -15,7 +20,7 @@ int ImagenColor::CalcularPropiedades()
 	{
 		total += getVectorRGB()[i]->getRed() + getVectorRGB()[i]->getGreen() + getVectorRGB()[i]->getBlue();
 	}
-	return total / (getAnchura()*getAltura());
+	return total / pixeles;
 }
 
 vector<RGB*> ImagenColor::getVectorRGB()

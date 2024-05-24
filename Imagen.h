@@ -8,7 +8,8 @@ protected:
 	int largo;
 	int pixeles;
 public:
-	Imagen(int, int);
+	Imagen();
+	Imagen(string,int, int);
 	void setAltura(int);
 	void setAnchura(int);
 	int getAltura();

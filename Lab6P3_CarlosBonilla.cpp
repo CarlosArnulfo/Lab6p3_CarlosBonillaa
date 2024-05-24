@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+#include "ImagenColor.h"
+#include "RGB.h"
 using namespace std;
 void menu() {
 	int menu = 0;

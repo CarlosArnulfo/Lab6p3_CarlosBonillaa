@@ -27,6 +27,9 @@
     <ClCompile Include="ImagenColor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ImagenEscalaGrises.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Imagen.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ImagenColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagenEscalaGrises.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
